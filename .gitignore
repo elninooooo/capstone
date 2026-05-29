@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build artifacts
+frontend/dist/
+blockchain/artifacts/
+blockchain/cache/
+
+# Runtime data
+logs/
+pids/
+backend/uploads/
+backend/chain_data.json
+
+# IDE
+.idea/
+.vscode/
+
+# OS / misc junk
+*.stackdump
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+*.local

@@ -1,0 +1,5 @@
+flask>=3.0.0
+flask-cors>=6.0.0
+web3>=7.0.0
+ipfshttpclient>=0.7.0
+requests>=2.31.0
